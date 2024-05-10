@@ -12,7 +12,7 @@ void selectionSort(vector<int> &arr) {
                 minPos = j;
             }
         }
-        if (minPos != static_cast<int>(i)) {
+        if (minPos != (int)i) {
             int temp = arr[minPos];
             arr[minPos] = arr[i];
             arr[i] = temp;
